@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://t.me/shayari_jok/52766)
+✪ I'm an anime-theme management bot [✨](https://te.legra.ph/file/360ee83e1df266c810460.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About TEÑA Robot", callback_data="emiko_"),
+        InlineKeyboardButton(text="About❤️Robot", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add TENA To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Add💝Your💝Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
